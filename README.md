@@ -158,46 +158,51 @@ It includes several sub-packages:
 - [IC Websocket JS](https://www.npmjs.com/package/ic-websocket-js) - A library for implementing WebSocket functionality on the Internet Computer. 
 - [Azle](https://github.com/demergent-labs/azle) - A WebAssembly runtime for TypeScript and JavaScript on ICP. 
 
-### Resources
-
-- [IC React Kit](https://github.com/dfinity/ic-react-kit) - React components for IC apps
-- [StoicWallet.js](https://github.com/Psychedelic/stoicwallet.js) - JavaScript library for Stoic Wallet integration
-
-### Multiple Language Support
-
-- [Candid](https://github.com/dfinity/candid) - Interface description language supporting multiple programming languages
-- [DIP Standards](https://github.com/dfinity/DIPS) - DFINITY Interface Protocol Standards
-
 ## DevTools
 
 *Tools that improve the development experience, including debugging utilities, testing frameworks, and deployment scripts.*
 
 ### Development Environment
 
-- [DFX CLI](https://github.com/dfinity/sdk) - Command-line tool for developing ICP applications
-- [Vessel Package Manager](https://github.com/dfinity/vessel) - Package manager for Motoko
-- [IC Repl](https://github.com/chenyan2002/ic-repl) - REPL for interacting with the Internet Computer
-- [Motoko Playground](https://github.com/dfinity/motoko-playground) - Web-based development environment
-- [Motoko VS Code Extension](https://github.com/dfinity/vscode-motoko) - VS Code support for Motoko
+- [dfx (DFINITY Canister SDK)](https://internetcomputer.org/docs/building-apps/developer-tools/dfx/) - The primary command-line tool for creating, deploying, and managing dapps on the Internet Computer.
+   - Supports local development, deployment, and interaction with canisters.
+   - Provides commands for building, deploying, and calling canister methods. 
+
+- [dfxvm](https://internetcomputer.org/docs/building-apps/developer-tools/dfxvm/dfxvm-default) - A version manager for dfx, allowing developers to switch between different dfx versions easily. 
+
+- [Motoko VS Code Extension](https://marketplace.visualstudio.com/items?itemName=dfinity-foundation.vscode-motoko) - Provides syntax highlighting and language support for Motoko in Visual Studio Code
+
+- [Vessel Package Manager](https://github.com/dfinity/vessel) - A package manager for the Motoko programming language.
+
+- [Create IC App](https://github.com/peterpeterparker/create-ic) -  A command-line tool to quickly create projects. 
+
+- [ICP Ninja](https://internetcomputer.org/docs/building-apps/developer-tools/icp-ninja) - A web-based IDE for developing and deploying ICP smart contracts.
+
+- [Motoko Playground](https://m7sm4-2iaaa-aaaab-qabra-cai.ic0.app/) - An online playground environment for Motoko
 
 ### Testing and Debugging
 
-- [Motoko Test](https://github.com/dfinity/motoko-test) - Testing framework for Motoko
-- [Wasmtime Debugger](https://github.com/dfinity/wasmtime-debugger) - Debugger for WebAssembly
-- [Candid UI](https://github.com/dfinity/candid-ui) - UI for interacting with canisters
-- [IC Inspector](https://github.com/dfinity/ic-inspector) - Tool for inspecting canisters
+- [IC Inspector](https://chromewebstore.google.com/detail/ic-inspector/meaadkenfkhjakkkdapaallimhbdofck) - A tool to decode network responses from the Internet Computer blockchain.
+
+- [Canistergeek](https://cusyh-iyaaa-aaaah-qcpba-cai.raw.ic0.app/) - An open-source tool to track your project canisters' cycles and memory status.
 
 ### Deployment and CI/CD
 
-- [IC Deploy Action](https://github.com/dfinity/ic-deploy-action) - GitHub action for deploying to IC
-- [IC Canister Monitor](https://github.com/dfinity/ic-canister-monitor) - Monitoring tool for canisters
-- [IC Gitlab CI](https://github.com/dfinity/ic-gitlab-ci) - CI/CD templates for GitLab
+- [ICPipeline](https://www.icpipeline.com/) - A multi-tiered IC development framework with an onchain admin console, repeatable deployments, on-demand environments, and canister backups.
+
+- [Launchtrail](https://github.com/spinner-cash/launchtrail) - A tool for simple and secure release management for Internet Computer projects.
 
 ### Wallet and Identity
 
-- [Internet Identity](https://github.com/dfinity/internet-identity) - Authentication library for IC apps
-- [NFID](https://github.com/nfid) - Non-fungible Identity tooling
-- [Plug Wallet](https://github.com/Psychedelic/plug) - Browser extension wallet
+- [Quill](https://github.com/dfinity/quill) - A minimalistic ledger and governance toolkit for cold wallets.
+
+- [Internet Identity](https://github.com/dfinity/internet-identity) - The Internet Computer's native authentication system.
+
+- [NFID](https://nfid.one/) - Non-fungible Identity tooling on ICP that provides a more user-friendly and secure authentication experience. 
+
+- [Plug Wallet](https://github.com/Psychedelic/plug) - Browser based extension wallet for ICP. 
+
+Check out more over [here](https://internetcomputer.org/tooling)
 
 ## Contributing
 
