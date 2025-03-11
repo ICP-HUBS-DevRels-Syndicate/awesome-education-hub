@@ -90,10 +90,12 @@ A curated list of high-quality repositories for building on the Internet Compute
 
 ### Frontend Integration Templates
 
-- [React Template](https://github.com/dfinity/examples/tree/master/motoko/react-ui) - Template for React integration with canisters. `[frontend]` `[react]`
-- [Vue.js Template](https://github.com/dfinity/examples/tree/master/motoko/vue-todos) - Template for Vue.js integration. `[frontend]` `[vue]`
-- [Next.js Template](https://github.com/dfinity/ic-nextjs-starter) - Starter for Next.js projects on ICP. `[frontend]` `[nextjs]`
-- [Svelte Template](https://github.com/dfinity/examples/tree/master/svelte/svelte-motoko-starter) - Starter for Svelte projects. `[frontend]` `[svelte]`
+ICP provides frontend canister templates when creating new projects with `dfx new`. These templates include options for SvelteKit, React, Vue, and Vanilla JS frameworks, available in dfx versions 0.17.0 and newer.
+
+Here are some of the community-created templates and examples:
+
+- [Vite + React + Motoko template](https://github.com/rvanasa/vite-react-motoko) - Template for Vite + React + Motoko integration. `[frontend]` `[react]` `[motoko]`
+- [Vite + SvelteKit + Motoko template](https://github.com/letmejustputthishere/vite-sveltekit-motoko-ii/tree/main) - Template for Vite + SvelteKit + Motoko integration. `[frontend]` `[svelte]` `[motoko]`
 
 ## Libraries
 
