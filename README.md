@@ -132,10 +132,34 @@ Debug for logging and debugging
    - It provides a set of matchers for common testing scenarios.
 - [Motoko Inter Tools](https://github.com/NatLabs/Itertools) - A library that provides additional iterator combinators for Motoko.
 
-### JavaScript/TypeScript Libraries
+### JavaScript Libraries: 
 
-- [Agent-JS](https://github.com/dfinity/agent-js) - JavaScript agent for IC development
-- [Azle](https://github.com/demergent-labs/azle) - TypeScript CDK for the Internet Computer
+- [Agent JS](https://github.com/dfinity/agent-js) - This is a collection of libraries and tools for building software around the Internet Computer in JavaScript. 
+It includes several sub-packages:
+   - ``@dfinity/agent``: Core library for interacting with the Internet Computer.
+   - ``@dfinity/authentication``: Handles authentication with Internet Identity.
+   - ``@dfinity/identity``: Manages user identities.
+   - ``@dfinity/principal``: Utilities for working with IC principals.
+   - ``@dfinity/candid``: JavaScript implementation of the Candid interface description language.
+- [IC JS](https://github.com/dfinity/ic-js) - A library collection for interfacing with the Internet Computer. 
+It includes several sub-packages:
+    - ``nns``: interfacing with the governance canisters of the Network Nervous System (NNS)
+    - ``sns``: interacting with a Service Nervous System (SNS) project
+    - ``cmc``: interfacing with the cmc canister of the IC
+    - ``ledger-icp``: interfacing with the ICP ledger
+    - ``ledger-icrc``: interacting with ICRC compatible ledgers
+    - ``ckBTC``: interfacing with ckBTC
+    - ``ckETH``: interfacing with ckETH
+    - ``ic-management``: interfacing with the IC management canister
+    - ``utils``: a collection of utilities and constants
+    - ``zod-schemas``: a collection of reusable Zod schemas and validators for common data patterns in ICP applications
+    - ``nns-proto``: the protobuf source used by nns-js to support hardware wallets
+- [Connect2IC](https://connect2ic.github.io/docs) -  A library and toolkit to streamline integration of various authentication methods. 
+- [IC Websocket JS](https://www.npmjs.com/package/ic-websocket-js) - A library for implementing WebSocket functionality on the Internet Computer. 
+- [Azle](https://github.com/demergent-labs/azle) - A WebAssembly runtime for TypeScript and JavaScript on ICP. 
+
+### Resources
+
 - [IC React Kit](https://github.com/dfinity/ic-react-kit) - React components for IC apps
 - [StoicWallet.js](https://github.com/Psychedelic/stoicwallet.js) - JavaScript library for Stoic Wallet integration
 
