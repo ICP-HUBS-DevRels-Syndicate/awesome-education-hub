@@ -99,20 +99,38 @@ A curated list of high-quality repositories for building on the Internet Compute
 
 *Reusable modules that support development in various CDKs, languages, and frameworks.*
 
-### Motoko Libraries
-
-- [Base Library](https://github.com/dfinity/motoko-base) - Standard library for Motoko
-- [Mops Package Manager](https://github.com/ZenVoich/mops) - Package manager for Motoko projects
-- [Motoko Candid](https://github.com/dfinity/candid) - Candid interface description language support
-- [Motoko Matchers](https://github.com/kritzcreek/motoko-matchers) - Testing library for Motoko
-- [Cap](https://github.com/Psychedelic/cap) - Token standard implementation for transaction history
-
 ### Rust Libraries
 
-- [IC-CDK](https://github.com/dfinity/cdk-rs) - Core development kit for Rust on the Internet Computer
-- [IC-Agent](https://github.com/dfinity/agent-rs) - Agent library for interacting with the IC
-- [Canister SDK](https://github.com/dfinity/canister-sdk) - SDK for canister development
-- [Rust Crypto](https://github.com/dfinity/ic-crypto) - Cryptographic utilities for the IC
+- [IC CDK](https://crates.io/crates/ic-cdk) - Core Rust Canister development kit (CDK) for ICP  
+- [IC CDK Macros](https://crates.io/crates/ic-cdk-macros) - This library provides procedural macros for the Rust CDK. It defines macros like ``update``, ``query``, and ``import`` that facilitate building operation endpoints and APIs. 
+- [IC CDK Timers](https://crates.io/crates/ic-cdk-timers) - This library provides timer functionality for Rust canisters. It offers an API to schedule multiple timers and periodic tasks within a canister.
+- [IC Agent](https://github.com/dfinity/agent-rs) - A collection of Rust libraries for building canisters that interact with the IC. It provides functionality to call canister methods, sign messages, and manage identities. 
+- [IC Stable Structures](https://github.com/dfinity/stable-structures) - This library provides data structures for use with stable memory in Rust canisters. It offers efficient, upgradeable data structures that persist across canister upgrades. 
+- [IC Certified Map](https://github.com/dfinity/cdk-rs/tree/main/library/ic-certified-map) - This library provides certified data structures for use in Rust canisters. It's useful for implementing certified variables and certified HTTP assets. 
+- [Serde](https://crates.io/crates/serde) - While not specific to ICP, serde is commonly used in Rust canisters for serialization and deserialization. It's particularly useful when working with Candid types and stable memory.
+- [IC Ledger Types](https://github.com/dfinity/cdk-rs/tree/main/library/ic-ledger-types) - This library provides Rust types for interacting with the ICP ledger. It includes definitions for accounts, transactions, and other ledger-related data structures.
+
+### Motoko Libraries
+
+- [Motoko Base Library](https://internetcomputer.org/docs/motoko/main/base/) - his is the core library for Motoko development, providing essential modules and types:
+  - It includes modules for common data structures, text processing, time, debugging, and more.
+  - Some key modules include:
+    - Array, Buffer, Deque, HashMap, List, TrieMap for data structures
+Debug for logging and debugging
+    - Time for time-related operations
+    - Principal for working with IC principals
+    - Blob for binary data handling
+    - Error for error handling
+    - Nat, Int for number operations
+- [Motoko Stable Memory](https://github.com/dfinity/stable-structures) - This library provides data structures for use with stable memory in Motoko canisters.
+   - It offers efficient, upgradeable data structures that persist across canister upgrades.
+- [Motoko Bitcoin](https://github.com/tgalal/motoko-bitcoin) - A Motoko Bitcoin integration library.
+   - It provides functionality for working with Bitcoin transactions and addresses on the Internet Computer.
+- [IC Certification](https://github.com/nomeata/ic-certification) - A library for working with certified data in Motoko. 
+   - It allows canisters to create certified data that can be verified by clients.
+- [Motoko Matchers](https://github.com/kritzcreek/motoko-matchers) - A library for writing expressive tests in Motoko.
+   - It provides a set of matchers for common testing scenarios.
+- [Motoko Inter Tools](https://github.com/NatLabs/Itertools) - A library that provides additional iterator combinators for Motoko.
 
 ### JavaScript/TypeScript Libraries
 
@@ -173,47 +191,6 @@ To be listed in the curated collection, repositories must meet the following cri
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Feature-Specific Implementations
-
-*Real-world implementations and examples organized by specific ICP features and capabilities.*
-
-### Chain Fusion
-- [IC Bitcoin Integration](https://github.com/dfinity/bitcoin-integration) - Reference implementation for Bitcoin integration on ICP. `[bitcoin]` `[chain fusion]`
-- [IC Ethereum Bridge](https://github.com/dfinity/eth-bridge) - Ethereum bridge implementation. `[ethereum]` `[chain fusion]`
-- [ckBTC](https://github.com/dfinity/ckbtc) - Chain Key Bitcoin implementation. `[bitcoin]` `[chain fusion]` `[token]`
-- [ckETH](https://github.com/dfinity/cketh) - Chain Key Ethereum implementation. `[ethereum]` `[chain fusion]` `[token]`
-
-### Tokens and DeFi
-- [ICRC-1 Reference](https://github.com/dfinity/ICRC-1) - Reference implementation of the ICRC-1 fungible token standard. `[token]` `[ICRC-1]`
-- [ICRC-2 Reference](https://github.com/dfinity/ICRC-2) - Reference implementation of the ICRC-2 token approval standard. `[token]` `[ICRC-2]`
-- [ICP Ledger](https://github.com/dfinity/ledger-icp) - The Internet Computer's native token ledger. `[token]` `[ledger]`
-- [SNS Swap](https://github.com/dfinity/sns-swap) - Service Nervous System token swap implementation. `[token]` `[governance]`
-- [Sonic DEX](https://github.com/Psychedelic/sonic) - Decentralized exchange implementation. `[defi]` `[token]`
-
-### NFTs and Digital Assets
-- [DIP-721](https://github.com/Psychedelic/DIP721) - Implementation of the DIP-721 NFT standard. `[nft]` `[DIP-721]`
-- [ICRC-7 Reference](https://github.com/dfinity/ICRC-7) - Reference implementation of the ICRC-7 NFT standard. `[nft]` `[ICRC-7]`
-- [NFT Studio](https://github.com/dfinity/nft-studio) - Complete NFT marketplace implementation. `[nft]` `[marketplace]`
-- [Asset Storage](https://github.com/dfinity/certified-assets) - Certified asset storage implementation. `[assets]` `[certification]`
-
-### AI and Machine Learning
-- [DeAI Hub](https://github.com/dfinity/deai-hub) - Decentralized AI agent marketplace. `[ai]` `[marketplace]`
-- [IC LLM](https://github.com/dfinity/ic-llm) - Language model implementation on ICP. `[ai]` `[llm]`
-- [OpenChat AI](https://github.com/open-ic/open-chat) - AI-powered chat implementation. `[ai]` `[chat]`
-- [IC ML Framework](https://github.com/dfinity/ml-framework) - Machine learning framework for ICP. `[ai]` `[ml]`
-
-### Identity and Authentication
-- [Internet Identity](https://github.com/dfinity/internet-identity) - Official Internet Identity implementation. `[identity]` `[authentication]`
-- [NFID](https://github.com/dfinity/nfid) - Non-Fungible Identity implementation. `[identity]` `[nft]`
-- [II Integration](https://github.com/dfinity/ii-integration) - Internet Identity integration examples. `[identity]` `[authentication]`
-- [Plug Auth](https://github.com/Psychedelic/plug-auth) - Plug wallet authentication implementation. `[identity]` `[wallet]`
-
-### Wallets
-- [Plug](https://github.com/Psychedelic/plug) - Browser extension wallet for ICP ecosystem. `[wallet]` `[browser-extension]`
-- [AstroX ME](https://github.com/AstroxNetwork/ME) - Mobile wallet implementation. `[wallet]` `[mobile]`
-- [Earth Wallet](https://github.com/earthwallet/wallet) - Multi-chain wallet with ICP support. `[wallet]` `[multi-chain]`
-- [BitFinity](https://github.com/bitfinity-network/wallet) - Web3 wallet implementation. `[wallet]` `[web3]`
 
 ---
 
