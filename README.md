@@ -10,6 +10,7 @@ A curated list of high-quality repositories for building on the Internet Compute
 - [Libraries](#libraries)
 - [DevTools](#devtools)
 - [Contributing](#contributing)
+- [Feature-Specific Implementations](#feature-specific-implementations)
 
 ## Templates
 
@@ -79,9 +80,13 @@ A curated list of high-quality repositories for building on the Internet Compute
 
 ### TypeScript Templates (Azle)
 
-- [Hello Azle](https://github.com/demergent-labs/azle/tree/main/examples/hello) - Basic Azle template with TypeScript. `[backend]`
-- [Azle Counter](https://github.com/demergent-labs/azle/tree/main/examples/counter) - Counter implementation in TypeScript. `[backend]`
-- [Azle To-Do List](https://github.com/demergent-labs/azle/tree/main/examples/todo) - CRUD application in TypeScript. `[backend]`
+#### Beginner Level
+- [Hello World HTTP Server](https://github.com/demergent-labs/azle/tree/main/examples/experimental/demo/hello_world_http_server) - Basic example demonstrating Azle setup and HTTP server functionality on ICP. `[backend]` `[http]`
+
+#### Expert Level
+- [Basic Bitcoin](https://github.com/demergent-labs/azle/tree/main/examples/experimental/demo/basic_bitcoin) - Implementation of Bitcoin integration showing how to send and receive BTC on ICP. `[backend]` `[bitcoin]` `[chain fusion]`
+- [Bitcoin PSBT](https://github.com/demergent-labs/azle/tree/main/examples/experimental/demo/bitcoin_psbt) - Advanced Bitcoin example demonstrating Partially Signed Bitcoin Transactions (PSBT) and SegWit integration. `[backend]` `[bitcoin]` `[chain fusion]` `[segwit]`
+- [ckBTC](https://github.com/demergent-labs/azle/tree/main/examples/experimental/demo/ckbtc) - Complete ckBTC implementation with ledger, Internet Identity, KYT, minter, and Bitcoin integration. `[frontend+backend]` `[bitcoin]` `[authentication]` `[token]` `[ckBTC]`
 
 ### Frontend Integration Templates
 
@@ -168,6 +173,47 @@ To be listed in the curated collection, repositories must meet the following cri
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Feature-Specific Implementations
+
+*Real-world implementations and examples organized by specific ICP features and capabilities.*
+
+### Chain Fusion
+- [IC Bitcoin Integration](https://github.com/dfinity/bitcoin-integration) - Reference implementation for Bitcoin integration on ICP. `[bitcoin]` `[chain fusion]`
+- [IC Ethereum Bridge](https://github.com/dfinity/eth-bridge) - Ethereum bridge implementation. `[ethereum]` `[chain fusion]`
+- [ckBTC](https://github.com/dfinity/ckbtc) - Chain Key Bitcoin implementation. `[bitcoin]` `[chain fusion]` `[token]`
+- [ckETH](https://github.com/dfinity/cketh) - Chain Key Ethereum implementation. `[ethereum]` `[chain fusion]` `[token]`
+
+### Tokens and DeFi
+- [ICRC-1 Reference](https://github.com/dfinity/ICRC-1) - Reference implementation of the ICRC-1 fungible token standard. `[token]` `[ICRC-1]`
+- [ICRC-2 Reference](https://github.com/dfinity/ICRC-2) - Reference implementation of the ICRC-2 token approval standard. `[token]` `[ICRC-2]`
+- [ICP Ledger](https://github.com/dfinity/ledger-icp) - The Internet Computer's native token ledger. `[token]` `[ledger]`
+- [SNS Swap](https://github.com/dfinity/sns-swap) - Service Nervous System token swap implementation. `[token]` `[governance]`
+- [Sonic DEX](https://github.com/Psychedelic/sonic) - Decentralized exchange implementation. `[defi]` `[token]`
+
+### NFTs and Digital Assets
+- [DIP-721](https://github.com/Psychedelic/DIP721) - Implementation of the DIP-721 NFT standard. `[nft]` `[DIP-721]`
+- [ICRC-7 Reference](https://github.com/dfinity/ICRC-7) - Reference implementation of the ICRC-7 NFT standard. `[nft]` `[ICRC-7]`
+- [NFT Studio](https://github.com/dfinity/nft-studio) - Complete NFT marketplace implementation. `[nft]` `[marketplace]`
+- [Asset Storage](https://github.com/dfinity/certified-assets) - Certified asset storage implementation. `[assets]` `[certification]`
+
+### AI and Machine Learning
+- [DeAI Hub](https://github.com/dfinity/deai-hub) - Decentralized AI agent marketplace. `[ai]` `[marketplace]`
+- [IC LLM](https://github.com/dfinity/ic-llm) - Language model implementation on ICP. `[ai]` `[llm]`
+- [OpenChat AI](https://github.com/open-ic/open-chat) - AI-powered chat implementation. `[ai]` `[chat]`
+- [IC ML Framework](https://github.com/dfinity/ml-framework) - Machine learning framework for ICP. `[ai]` `[ml]`
+
+### Identity and Authentication
+- [Internet Identity](https://github.com/dfinity/internet-identity) - Official Internet Identity implementation. `[identity]` `[authentication]`
+- [NFID](https://github.com/dfinity/nfid) - Non-Fungible Identity implementation. `[identity]` `[nft]`
+- [II Integration](https://github.com/dfinity/ii-integration) - Internet Identity integration examples. `[identity]` `[authentication]`
+- [Plug Auth](https://github.com/Psychedelic/plug-auth) - Plug wallet authentication implementation. `[identity]` `[wallet]`
+
+### Wallets
+- [Plug](https://github.com/Psychedelic/plug) - Browser extension wallet for ICP ecosystem. `[wallet]` `[browser-extension]`
+- [AstroX ME](https://github.com/AstroxNetwork/ME) - Mobile wallet implementation. `[wallet]` `[mobile]`
+- [Earth Wallet](https://github.com/earthwallet/wallet) - Multi-chain wallet with ICP support. `[wallet]` `[multi-chain]`
+- [BitFinity](https://github.com/bitfinity-network/wallet) - Web3 wallet implementation. `[wallet]` `[web3]`
 
 ---
 
