@@ -189,9 +189,7 @@ It includes several sub-packages:
 
 ### Deployment and CI/CD
 
-- [ICPipeline](https://www.icpipeline.com/) - A multi-tiered IC development framework with an onchain admin console, repeatable deployments, on-demand environments, and canister backups.
-
-- [Launchtrail](https://github.com/spinner-cash/launchtrail) - A tool for simple and secure release management for Internet Computer projects.
+- [GitHub Workflows](https://internetcomputer.org/docs/tutorials/developer-liftoff/level-2/2.5-unit-testing#integration-testing) - Setting up GitHub workflows for automated testing
 
 ### Wallet and Identity
 
