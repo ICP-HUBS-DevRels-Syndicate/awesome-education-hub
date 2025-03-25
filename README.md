@@ -156,7 +156,6 @@ It includes several sub-packages:
     - ``utils``: a collection of utilities and constants
     - ``zod-schemas``: a collection of reusable Zod schemas and validators for common data patterns in ICP applications
     - ``nns-proto``: the protobuf source used by nns-js to support hardware wallets
-- [Connect2IC](https://connect2ic.github.io/docs) -  A library and toolkit to streamline integration of various authentication methods. 
 - [IC Websocket JS](https://www.npmjs.com/package/ic-websocket-js) - A library for implementing WebSocket functionality on the Internet Computer. 
 - [Azle](https://github.com/demergent-labs/azle) - A WebAssembly runtime for TypeScript and JavaScript on ICP. 
 
