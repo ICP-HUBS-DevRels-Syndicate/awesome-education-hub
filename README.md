@@ -179,8 +179,6 @@ It includes several sub-packages:
 
 - [ICP Ninja](https://internetcomputer.org/docs/building-apps/developer-tools/icp-ninja) - A web-based IDE for developing and deploying ICP smart contracts.
 
-- [Motoko Playground](https://m7sm4-2iaaa-aaaab-qabra-cai.ic0.app/) - An online playground environment for Motoko
-
 ### Testing and Debugging
 
 - [IC Inspector](https://chromewebstore.google.com/detail/ic-inspector/meaadkenfkhjakkkdapaallimhbdofck) - A tool to decode network responses from the Internet Computer blockchain.
