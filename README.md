@@ -179,6 +179,8 @@ It includes several sub-packages:
 
 - [ICP Ninja](https://internetcomputer.org/docs/building-apps/developer-tools/icp-ninja) - A web-based IDE for developing and deploying ICP smart contracts.
 
+- [Easy ICP](https://easyicp.site/) - A web tool for creating and hosting websites on ICP 
+
 ### Testing and Debugging
 
 - [IC Inspector](https://chromewebstore.google.com/detail/ic-inspector/meaadkenfkhjakkkdapaallimhbdofck) - A tool to decode network responses from the Internet Computer blockchain.
