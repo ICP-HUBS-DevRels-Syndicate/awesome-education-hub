@@ -15,8 +15,18 @@ A curated list of high-quality resources to help any ICP HUB or DevRel teach abo
 
 *Courses that teach about ICP and it's capabilities, helping developers understand about key features.*
 
-TODO: to be checked and implemented
-Please see at least, Dacade, Mexico Hub courses, Motoko Bootcamp, Spanish ICP Bootcamp, Bulgaria Bootcamp, Raise In, Elna Bootcamp, Cpp Bootcamp.
+#### Motoko Recommended
+- [Motoko Bootcamp](https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/)
+#### Rust Recommended
+- [Elna Bootcamp](https://elna-ai.github.io/bootcamp/)
+- [Raise In](https://www.risein.com/courses/build-on-internet-computer-with-icp-rust-cdk)
+#### Typescript Recommended
+- [Dacade - Typescript 101](https://dacade.org/communities/icp/challenges/256f0a1c-5f4f-495f-a1b3-90559ab3c51f)
+- [Dacade - Typescript 201](https://dacade.org/communities/icp/challenges/0c140f50-2c47-412b-985c-092c1eece05b)
+#### Vibe Coding Recommended
+- [PT HUB - Vibe Coding](https://github.com/pt-icp-hub/ICP-Bootcamp-Vibe-Coding-Index)
+
+[See full courses list](https://github.com/ICP-HUBS-DevRels-Syndicate/awesome-education-hub?tab=readme-ov-file)
 
 ## Templates
 
