@@ -1,16 +1,20 @@
-# 🛠️ Awesome ICP Development Resources
+# 🛠️ Awesome Education Hub
 
-A curated list of high-quality repositories for building on the Internet Computer Protocol (ICP).
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+A curated list of high-quality resources to help any ICP HUB or DevRel teach about building on the Internet Computer Protocol (ICP).
 
 ## 📚 Contents
 
+- [Courses](#courses)
 - [Templates](#templates)
 - [Libraries](#libraries)
 - [DevTools](#devtools)
 - [Contributing](#contributing)
 - [Feature-Specific Implementations](#feature-specific-implementations)
+
+## Courses
+
+TODO: to be checked and implemented
+Please see at least, Dacade, Mexico Hub courses, Motoko Bootcamp, Spanish ICP Bootcamp, Bulgaria Bootcamp, Raise In, Elna Bootcamp, Cpp Bootcamp.
 
 ## Templates
 
