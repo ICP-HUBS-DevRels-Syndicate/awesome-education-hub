@@ -13,6 +13,8 @@ A curated list of high-quality resources to help any ICP HUB or DevRel teach abo
 
 ## Courses
 
+*Courses that teach about ICP and it's capabilities, helping developers understand about key features.*
+
 TODO: to be checked and implemented
 Please see at least, Dacade, Mexico Hub courses, Motoko Bootcamp, Spanish ICP Bootcamp, Bulgaria Bootcamp, Raise In, Elna Bootcamp, Cpp Bootcamp.
 
