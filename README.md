@@ -1,3 +1,7 @@
+
+![Image](https://github.com/user-attachments/assets/c1063f3d-804e-4cb3-b415-19d5c0907737)
+
+
 # 🛠️ Awesome Education Hub
 
 A curated list of high-quality resources to help any ICP HUB or DevRel teach about building on the Internet Computer Protocol (ICP).

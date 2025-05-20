@@ -81,57 +81,57 @@ Here are some of the community-created templates and examples:
 
 - [Vite + React + Motoko template](https://github.com/rvanasa/vite-react-motoko) - Template for Vite + React + Motoko integration. `[frontend]` `[react]` `[motoko]`
 - [Vite + SvelteKit + Motoko template](https://github.com/letmejustputthishere/vite-sveltekit-motoko-ii/tree/main) - Template for Vite + SvelteKit + Motoko integration. `[frontend]` `[svelte]` `[motoko]`
-
+-- [Azle + NextJS Starter](https://github.com/mzurs/ic_template-Azle-NextJS) - Build Full-stack Dapp on IC with Typescript CDK and NextJS.`[typescript]`
 
 ### Chainfusion Templates
 
 #### Intermediate Level
 
-- [Alloy Toolkit](https://github.com/kristoferlund/ic-alloy-toolkit) - Examples of interacting with Ethereum from a Rust canister using the Alloy EVM support libraries
-- [SIWE starter](https://github.com/kristoferlund/ic-siwe-react-demo-rust) - Login in to ICP using Metamask and other Ethereum wallets.
+- [Alloy Toolkit](https://github.com/kristoferlund/ic-alloy-toolkit) - Examples of interacting with Ethereum from a Rust canister using the Alloy EVM support libraries`[chainfusion]`
+- [SIWE starter](https://github.com/kristoferlund/ic-siwe-react-demo-rust) - Login in to ICP using Metamask and other Ethereum wallets.`[rust]``[chainfusion]`
 - [Chain Fusion Starter](https://github.com/letmejustputthishere/chain-fusion-starter) – starter template leveraging chain fusion technology to build EVM coprocessors on the Internet Computer Protocol
 - [ic-evm-utils](https://crates.io/crates/ic-evm-utils) – Utils for interacting with Ethereum from ICP canisters.
-- [evm-rpc-canister-types](https://crates.io/crates/evm-rpc-canister-types) – Types for interacting with the EVM RPC canister.
-- [Chain-key ECDSA](https://internetcomputer.org/how-it-works/threshold-ecdsa-signing/) - Tech that allows creating transactions targeting various chains from canisters on the Internet Computer.
-- [B3Wallet](https://github.com/B3Pay/b3-wallet) - A decentralized wallet supporting multiple blockchains, including Ethereum, Bitcoin, and ICP.
+- [evm-rpc-canister-types](https://crates.io/crates/evm-rpc-canister-types) – Types for interacting with the EVM RPC canister.`[rust]``[chainfusion]`
+- [Chain-key ECDSA](https://internetcomputer.org/how-it-works/threshold-ecdsa-signing/) - Tech that allows creating transactions targeting various chains from canisters on the Internet Computer.`[chainfusion]`
+- [B3Wallet](https://github.com/B3Pay/b3-wallet) - A decentralized wallet supporting multiple blockchains, including Ethereum, Bitcoin, and ICP.`[chainfusion]`
 
 ### Bitcoin
 
-- [Bitcoin Integration](https://internetcomputer.org/bitcoin-integration) - Landing page of the direct integration with the Bitcoin network.
-- [ckBTC](https://github.com/dfinity/ic/tree/master/rs/bitcoin/ckbtc) - Canister-controlled BTC twin on ICP with 1:1 backing.
-- [Internet Computer Bitcoin Library](https://github.com/Benjamin-Loison/Internet-Computer-Bitcoin-Library) - Utility libraries for Motoko/Rust to simplify building on the Bitcoin Integration.
-- [Multi-Subnet Bitcoin Wallet](https://github.com/sardariuss/ic_btc_multisig) - Proof-of-Concept of multi-subnet Bitcoin custody for increased secruty.
-- [Loka](https://github.com/lokaverse/loka_canister) - Trustless Non-Custodial Bitcoin Mining Platform built on ICP.
-- [runes-indexer](https://github.com/octopus-network/runes-indexer) – An onchain runes indexer on the Internet Computer.
-- [Ordinals Canister](https://github.com/sardariuss/ordinals_canister) - A canister that enables the retrieval of BTC ordinals and their corresponding inscriptions.
+- [Bitcoin Integration](https://internetcomputer.org/bitcoin-integration) - Landing page of the direct integration with the Bitcoin network.`[chainfusion]`
+- [ckBTC](https://github.com/dfinity/ic/tree/master/rs/bitcoin/ckbtc) - Canister-controlled BTC twin on ICP with 1:1 backing.`[chainfusion]``[rust]`
+- [Internet Computer Bitcoin Library](https://github.com/Benjamin-Loison/Internet-Computer-Bitcoin-Library) - Utility libraries for Motoko/Rust to simplify building on the Bitcoin Integration.`[chainfusion]``[motoko]`
+- [Multi-Subnet Bitcoin Wallet](https://github.com/sardariuss/ic_btc_multisig) - Proof-of-Concept of multi-subnet Bitcoin custody for increased secruty.`[chainfusion]`
+- [Loka](https://github.com/lokaverse/loka_canister) - Trustless Non-Custodial Bitcoin Mining Platform built on ICP.`[chainfusion]`
+- [runes-indexer](https://github.com/octopus-network/runes-indexer) – An onchain runes indexer on the Internet Computer.`[chainfusion]`
+- [Ordinals Canister](https://github.com/sardariuss/ordinals_canister) - A canister that enables the retrieval of BTC ordinals and their corresponding inscriptions.`[chainfusion]`
 - [Inscription Canister](https://github.com/domwoe/inscription_canister) - A canister to create Ordinal inscriptions.
-
+`[chainfusion]`
 ### Ethereum
 
-- [Bitfinity EVM](https://bitfinity.network) - An Ethereum Virtual Machine (EVM) on ICP.
-- [CCAMP](https://github.com/usherlabs/ccamp) - General-purpose, modular, and custom data-driven Cross-chain Asset Management Protocol.
-- [ChainSight](https://docs.chainsight.network/chainsight-overview/introduction) - Composable cross-chain data oracles built on HTTPS Outcalls and Chain-key ECDSA.
-- [ckETH](https://github.com/dfinity/ic/tree/master/rs/ethereum/cketh) - Canister-controlled ETH twin on ICP with 1:1 backing.
-- [ckNFT](https://github.com/b3hr4d/cknft) - A PoC to bridge ICRC-7 NFTs to ERC-1155 NFTs on EVMs.
-- [ERC20-ICP](https://github.com/dfinity/erc20-icp) - Contracts and canisters enabling ICP tokens as ERC20 on Ethereum.
-- [EVM RPC Canister](https://github.com/internet-computer-protocol/evm-rpc-canister) - Interact with EVM blockchains from the Internet Computer.
-- [Ethereum Canister](https://github.com/eigerco/ethereum-canister) - Ethereum Light Client (Helios) running inside a canister.
-- [EVM Utility Canister](https://github.com/icopen/evm_utils_ic) - Utility canister to create and parse EVM-compliant transactions.
+- [Bitfinity EVM](https://bitfinity.network) - An Ethereum Virtual Machine (EVM) on ICP.`[chainfusion]`
+- [CCAMP](https://github.com/usherlabs/ccamp) - General-purpose, modular, and custom data-driven Cross-chain Asset Management Protocol.`[chainfusion]`
+- [ChainSight](https://docs.chainsight.network/chainsight-overview/introduction) - Composable cross-chain data oracles built on HTTPS Outcalls and Chain-key ECDSA.`[chainfusion]`
+- [ckETH](https://github.com/dfinity/ic/tree/master/rs/ethereum/cketh) - Canister-controlled ETH twin on ICP with 1:1 backing.`[chainfusion]`
+- [ckNFT](https://github.com/b3hr4d/cknft) - A PoC to bridge ICRC-7 NFTs to ERC-1155 NFTs on EVMs.`[chainfusion]`
+- [ERC20-ICP](https://github.com/dfinity/erc20-icp) - Contracts and canisters enabling ICP tokens as ERC20 on Ethereum.`[chainfusion]`
+- [EVM RPC Canister](https://github.com/internet-computer-protocol/evm-rpc-canister) - Interact with EVM blockchains from the Internet Computer.`[chainfusion]`
+- [Ethereum Canister](https://github.com/eigerco/ethereum-canister) - Ethereum Light Client (Helios) running inside a canister.`[chainfusion]`
+- [EVM Utility Canister](https://github.com/icopen/evm_utils_ic) - Utility canister to create and parse EVM-compliant transactions`[chainfusion]`.
 - [ic-alloy-basic-eth](https://github.com/kristoferlund/ic-alloy-basic-eth-frontend) - A multiuser Ethereum wallet starter/template using the Alloy EVM support libraries.
-- [ic-alloy-toolkit](https://github.com/kristoferlund/ic-alloy-toolkit) - Example code for using Alloy with the Internet Computer.
-- [ic-solidity-bindgen](https://github.com/horizonx-tech/ic-solidity-bindgen) - Generate Rust bindings for Solidity contracts from ABIs to use with the Internet Computer.
-- [ic-eth-starter](https://github.com/dfinity/ic-eth-starter) - An advanced starter project for interacting with Ethereum on the Internet Computer (Beta).
-- [ic-web3-rs](https://github.com/horizonx-tech/ic-web3-rs) - Utility library to interact with EVM networks.
-- [Oisy](https://github.com/dfinity/oisy-wallet) - A novel Ethereum wallet that is hosted on the Internet Computer, is browser-based, fully on-chain, and secured by Chain-key cryptography and Internet Identity.
-- [Omnic](https://github.com/rocklabs-io/omnic) - Cross-chain messaging protocol to connect EVM-compatible chains via the Internet Computer.
-- [Orally](https://github.com/orally-network/oracle) - Cross-chain oracle factory built on HTTPS Outcalls and Chain-key ECDSA.
-- [Gitcoin Passport Client](https://github.com/vporton/passport-client-dfinity) - a sample app for securely retrieving Gitcoin Passport scores and store them into a DB.
-- [Evm Rust Bridge](https://github.com/Stephen-Kimoi/icp-evm-rust-bridge) - A seamless Rust-based starter template for integrating ICP canisters with EVM-based smart contracts.
-- [Ethereum-lightclient-canister](https://github.com/octopus-network/ethereum-lightclient-canister) - An Ethereum light client canister that is compatible with newer versions of the Ethereum RPC protocol and adapted from the Helios project.
+- [ic-alloy-toolkit](https://github.com/kristoferlund/ic-alloy-toolkit) - Example code for using Alloy with the Internet Computer.`[chainfusion]`
+- [ic-solidity-bindgen](https://github.com/horizonx-tech/ic-solidity-bindgen) - Generate Rust bindings for Solidity contracts from ABIs to use with the Internet Computer.`[chainfusion]`
+- [ic-eth-starter](https://github.com/dfinity/ic-eth-starter) - An advanced starter project for interacting with Ethereum on the Internet Computer (Beta).`[chainfusion]`
+- [ic-web3-rs](https://github.com/horizonx-tech/ic-web3-rs) - Utility library to interact with EVM networks.`[chainfusion]`
+- [Oisy](https://github.com/dfinity/oisy-wallet) - A novel Ethereum wallet that is hosted on the Internet Computer, is browser-based, fully on-chain, and secured by Chain-key cryptography and Internet Identity.`[chainfusion]`
+- [Omnic](https://github.com/rocklabs-io/omnic) - Cross-chain messaging protocol to connect EVM-compatible chains via the Internet Computer.`[chainfusion]`
+- [Orally](https://github.com/orally-network/oracle) - Cross-chain oracle factory built on HTTPS Outcalls and Chain-key ECDSA.`[chainfusion]`
+- [Gitcoin Passport Client](https://github.com/vporton/passport-client-dfinity) - a sample app for securely retrieving Gitcoin Passport scores and store them into a DB.`[chainfusion]`
+- [Evm Rust Bridge](https://github.com/Stephen-Kimoi/icp-evm-rust-bridge) - A seamless Rust-based starter template for integrating ICP canisters with EVM-based smart contracts.`[chainfusion]`
+- [Ethereum-lightclient-canister](https://github.com/octopus-network/ethereum-lightclient-canister) - An Ethereum light client canister that is compatible with newer versions of the Ethereum RPC protocol and adapted from the Helios project.`[chainfusion]`
 ### Solana
 
-- [Galactic Bridge](https://github.com/weichain/galactic-bridge-icp) - Canister-controlled SOL bridge using Chain Fusion tech.
-- [Solana RPC Canister](https://github.com/mfactory-lab/ic-solana) - Interact with Solana blockchain from the Internet Computer.
+- [Galactic Bridge](https://github.com/weichain/galactic-bridge-icp) - Canister-controlled SOL bridge using Chain Fusion tech.`[chainfusion]`
+- [Solana RPC Canister](https://github.com/mfactory-lab/ic-solana) - Interact with Solana blockchain from the Internet Computer.`[chainfusion]`
 
 
 ### SNS and DAO Templates
