@@ -1,6 +1,6 @@
-# Contributing to Awesome ICP Development Resources
+# Contributing to Awesome Education Hub
 
-Thank you for your interest in contributing to this curated list of ICP development resources!
+Thank you for your interest in contributing to this curated list of ICP Education Hub resources!
 
 ## How to Contribute
 
@@ -25,9 +25,10 @@ To be listed in our collection, repositories must meet the following criteria:
 
 Please ensure your submission fits into one of these categories:
 
-1. **Templates**: Code examples demonstrating ICP capabilities that can be used as starting points.
+1. **Boilerplates**: Code examples demonstrating ICP capabilities that can be used as starting points.
 2. **Libraries**: Reusable modules supporting development with different CDKs, languages, and frameworks.
 3. **DevTools**: Tools that enhance development workflow (debugging, testing, deployment).
+3. **Courses**: Courses that teach about the ICP and any of it's languages or features.
 
 ### Format for Adding New Resources
 
